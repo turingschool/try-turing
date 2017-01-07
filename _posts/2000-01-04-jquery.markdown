@@ -6,11 +6,11 @@ permalink: jquery
 program: front-end
 ---
 
-We're going to hold off on talking about plain, vanilla JavaScript for just a second and jump straight to jQuery. 
+We're going to hold off on talking about plain, vanilla JavaScript for just a second and jump straight to jQuery.
 
 jQuery is a JavaScript library that allows us to use CSS selectors to find elements on the page and then interact with them. If HTML is the structure and CSS is the style, you can think of JavaScript and jQuery as the stuff that makes the user experience come alive.
 
-Under the hood, jQuery is built in plain, vanilla JavaScript. It gives our JavaScript super powers. It's used on about 78% of the top million web pages. So, it's worth while getting comfortable with it.
+Under the hood, jQuery is built in plain, vanilla JavaScript. It gives our JavaScript super powers. It's used on about 78% of the top million web pages. So it's worthwhile getting comfortable with it.
 
 Important: In order to have access to the jQuery library, you need to add this line to your HTML. Generally, you'll see this line at the bottom of the HTML page.
 
@@ -30,7 +30,7 @@ We could change the text programatically.
 $('h1').text('I AM AWESOME');
 ```
 
-Notice that the name of the HTML element, h1, is in quotes, as is the text that we want to replace. This is required in JavaScript. 
+Notice that the name of the HTML element, h1, is in quotes, as is the text that we want to replace. This is required in JavaScript.
 
 <div class="try-it">
 <h2>Try It: jQuery</h2>
@@ -73,7 +73,7 @@ The following things are happening in the example above:
 - We're providing a function. You can think of a function as a package of code to be executed.
 - In this example, the function will change the content of our heading.
 
-Now, whenever a user clicks on that button. The browser will run the function we provided to the event listener.
+Now, whenever a user clicks on that button, the browser will run the function we provided to the event listener.
 
 Take five minutes with a partner to figure out what is happening in this next example. In order to fully understand this one, you'll need to look at the HTML, the CSS, and the JavaScript.
 
@@ -82,7 +82,7 @@ Take five minutes with a partner to figure out what is happening in this next ex
 <div class="try-it">
 <h2>Try It: Toggling a CSS Class using jQuery</h2>
 
-Go back to your personal page. Use jQuery to toggle the class of your all of your headings when any specific heading is clicked. The new class should change two properties (ie: both the color and the font-family). Here's an example:
+Go back to your personal page. Use jQuery to toggle the class of all of your headings when any specific heading is clicked. The new class should change two properties (ie: both the color and the font-family). Here's an example:
 <br><br>
 <pre>
 .new-class-name {
@@ -104,14 +104,14 @@ Take a moment to try these out.
 
 We're getting somewhere good. We can respond to actions. It would be cool if we could also get some information from the user. If you recall, HTML provides `<input>` fields for just this kind of situation. jQuery helps out by providing the `.val()` method for getting the value out of a selected `<input>` element.
 
-Let's explore the following example.
+Let's explore the following example:
 
 <p data-height="300" data-theme-id="23788" data-slug-hash="YWwOmQ" data-default-tab="js,result" data-user="turing" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/team/turing/pen/YWwOmQ/">Event Listeners</a> by Turing School of Software and Design (<a href="http://codepen.io/turing">@turing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 In this example, we're doing the following:
 
 - We're adding an event listener to the "Change Me" button.
-- When it's clicked, we're grabbed the value of the input field and storing it into a variable.
+- When it's clicked, we're grabbing the value of the input field and storing it into a variable.
 - We're then updating the contents of the `<h1>` to the value we stored from the input field.
 
 Note that you need to use the `var` keyword when declaring a variable. If you forget the `var` keyword, your variable will be declared in the global scope—whether you meant it that way or not. (For our purposes today, forgetting the `var` keyword will not be the end of the world, but just know that it could cause subtle bugs in our code. Let's get in the habit of using it now.)

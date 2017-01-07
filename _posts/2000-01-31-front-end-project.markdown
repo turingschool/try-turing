@@ -6,9 +6,9 @@ permalink: front-end-project
 program: front-end
 ---
 
-Congratulations! You know know a bit more about front-end engineering, including HTML, CSS, and JavaScript. Now it's time to put everything together in this paired project.
+Congratulations! You now know a bit more about front-end engineering, including HTML, CSS, and JavaScript. Now it's time to put everything together in this paired project.
 
-Both partners will open a new codepen, and you'll work together to bounce ideas of of each other and be an extra pair of eyes when you are stuck.
+Both partners will open a new codepen, and you'll work together to bounce ideas off of each other and be an extra pair of eyes when you are stuck.
 
 We encourage you and your pair to get creative! What can you build with your new skills?
 
