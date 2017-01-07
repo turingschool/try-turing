@@ -6,7 +6,7 @@ permalink: html
 program: front-end
 ---
 
-Of all of the major technologies used on the web—on either the front- or the back-end—HTML is the oldest. In the beginning, the web was just a bunch of HTML documents that you wrote by hand. They had these cool things called hyperlinks that would allow to click on a word on one page and be taken to another page.
+Of all of the major technologies used on the web—on either the front- or the back-end—HTML is the oldest. In the beginning, the web was just a bunch of HTML documents that you wrote by hand. They had these cool things called hyperlinks that would allow you to click on a word on one page and be taken to another page.
 
 At the end of the day, HTML is made up two things: text and tags that mark up that text.
 
@@ -22,7 +22,7 @@ We'd wrap the text in paragraph tags.
 <p>This text is a paragraph.</p>
 ```
 
-We use `<p>` to signal to the browser that everything that's about to follow is part of a paragraph and `</p>` to let the browser know that this paragraph is done. When a user visits our application, the browser loads up the HTML and parses it into the elements that will eventally make up our user interface.
+We use `<p>` to signal to the browser that everything that's about to follow is part of a paragraph and `</p>` to let the browser know that this paragraph is done. When a user visits our application, the browser loads up the HTML and parses it into the elements that will eventually make up our user interface.
 
 Here is an example of a slightly more robust document:
 
@@ -45,7 +45,7 @@ Here is an example of a slightly more robust document:
 
 ### Images and Attributes
 
-We HTML tags to mark up text to show it's semantic meaning. The browser uses these tags to build up document. _Most_ tags have an opening and closing tag, but a few do not. Images—defined using the `<img>` tag do not have a closing tag for instance.
+We use HTML tags to mark up text to show it's semantic meaning. The browser uses these tags to build up our document. _Most_ tags have an opening and closing tag, but a few do not. Images defined using the `<img>` tag do not have a closing tag for instance.
 
 Consider the following:
 
@@ -53,9 +53,9 @@ Consider the following:
 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-340/turing.png">
 ```
 
-There are two things happening here. First, we have an `<img>` tag that is somewhat unique in that it doesn't have a closing tag like all of the other ones we've see so far.
+There are two things happening here. First, we have an `<img>` tag that is somewhat unique in that it doesn't have a closing tag like all of the other ones we've seen so far.
 
-Our `<img>` tag needs an extra little piece of information. Our browser is more than happy to load up an image, but it'd be helpful if we told it where that image located. That's where the `src` attribute comes in.
+Our `<img>` tag needs an extra little piece of information. Our browser is more than happy to load up an image, but it'd be helpful if we told it where that image is located. That's where the `src` attribute comes in.
 
 ![Anatomy of an HTML Tag](/images/anatomy.png)
 
@@ -69,7 +69,7 @@ Our `<img>` tag needs an extra little piece of information. Our browser is more 
   <h2>A Word on Tags and Elements</h2>
 
   <p>
-    You may here me use the term "tag" and "element" interchangably. The reason for this is that they're closely related, with just a subtle difference. A tag is the thing we write when we're creating an HTML document. The browser then reads and parses our document. Elements are the end result of what's rendered in the browser based on the tags we write.
+    You may hear me use the term "tag" and "element" interchangeably. The reason for this is that they're closely related, with just a subtle difference. A tag is the thing we write when we're creating an HTML document. The browser then reads and parses our document. Elements are the end result of what's rendered in the browser based on the tags we write.
   </p>
 </aside>
 
@@ -157,4 +157,4 @@ We'll use these elements when we discuss JavaScript.
 
 ### Conclusion
 
-There are many more HTML tags. But, the ones we learned today are enought to get us started and the raw materials that we'll need to build a game by the end of the day. As the day goes on, I'll slip in some additional tags where it's appropriate, but they meaning and significance should be clear in the context that they're presented.
+There are many more HTML tags. But, the ones we learned today are enough to get us started and the raw materials that we'll need to build a game by the end of the day. As the day goes on, I'll slip in some additional tags where it's appropriate, but their meaning and significance should be clear in the context that they're presented.
