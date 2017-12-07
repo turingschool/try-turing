@@ -15,6 +15,7 @@ pre {
 
   line-height: 1.5rem;
   overflow: auto;
+  overflow-x: scroll;
 }
 
 .highlight .hll { background-color: #d6d6d6 }
@@ -82,3 +83,21 @@ pre {
 .highlight .vg { color: #c82829 } /* Name.Variable.Global */
 .highlight .vi { color: #c82829 } /* Name.Variable.Instance */
 .highlight .il { color: #f5871f } /* Literal.Number.Integer.Long */
+
+.try-it {
+  background-color: lighten($teal, 50);
+  border: 1px solid $teal;
+  padding: 1em;
+  pre {
+    border: 1px solid black;
+    background-color: rgb(50, 50, 50);
+    color: white;
+  }
+}
+
+.highlighter-rouge {
+  max-width: 100%;
+  pre {
+    white-space: pre-wrap;
+  }
+}

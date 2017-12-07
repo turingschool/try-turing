@@ -1,0 +1,71 @@
+// nav should be broken out
+
+.sidebar {
+  min-width: $sidebar-width;
+  max-width: $sidebar-width;
+
+  flex-basis: auto;
+
+  background-color: $dark-gray;
+  color: white;
+
+  @media (max-width: $tablet-width) {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  ul, ol {
+    list-style: none;
+
+    @media (max-width: $tablet-width) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  li {
+    margin-bottom: 0;
+    margin-left: 0;
+
+    line-height: 1.8em;
+  }
+
+  a {
+    border-bottom: none;
+    color: white;
+  }
+
+  nav {
+    a {
+      display: block;
+      padding: 1em;
+
+      &:hover {
+        background-color: darken($dark-gray, 10);
+      }
+
+      &:active {
+        background-color: $teal;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    a.active {
+      background-color: $teal;
+    }
+  }
+
+  li.hidden {
+    display: none;
+  }
+
+  li.nav-break {
+    background-color: black;
+    padding: 1em;
+
+    @media (max-width: $tablet-width) {
+      display: none;
+    }
+  }
+}

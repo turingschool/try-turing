@@ -1,0 +1,24 @@
+header {
+  padding: 1em;
+  background-color: black;
+
+  .turing-logo {
+    margin: 0 auto;
+
+    &:hover {
+      animation-name: wiggle;
+      animation-duration: 1s;
+    }
+
+    @media (max-width: $tablet-width) {
+      max-width: $sidebar-width;
+    }
+  }
+
+  h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+    text-align: center;
+  }
+}
