@@ -5,13 +5,18 @@
     {% include head.html %}
   </head>
 
-  <body>
+  <body class="welcome">
     <section class="nav">
       {% include navigation.html %}
     </section>
+    <section class="splash">
+      <div class="center">
+        <h1 class="title">{{ page.title }}</h1>
+        {% include welcome.html %}
+      </div>
+    </section>
     <section class="content">
       <article>
-        <h1 class="lesson-title">{{ page.title }}</h1>
         {{content}}
       </article>
       {% include footer.html %}
