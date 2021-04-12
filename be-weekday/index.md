@@ -25,7 +25,7 @@ Over the course of the day, we will write code, explore the mindsets that succes
 
 - No question is too small. No question is a bad question. Ask them!
 - We all benefit from each others ideas! Push yourself to share out and make sure you aren't sharing _so_ much that others don't have the space to do so.
-- Pleaseute yourself **unless** you're talking.
+- Please mute yourself **unless** you're talking.
 - Have your camera on during class if possible!
 - Questions? Type into the group chat box or wait until end of section when we open it up for questions.
 
