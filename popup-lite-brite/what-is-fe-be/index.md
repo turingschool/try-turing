@@ -10,9 +10,9 @@ When you visit a URL like <code>https://www.vcahospitals.com/</code>, what happe
 
 Here is a simplified diagram of the client-server model:
 
-!["Simple client server model, client/computer is on left side , with an arrow labeled 'request' pointing to a server on the right right. The server has an arrow labeled 'response' pointing back to the client. The set of arrows is labeled with 'HTTP(S)'."](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data/client-server.png)
+!["Simple client server model, client/computer is on left side , with an arrow labeled 'request' pointing to a server on the right right. The server has an arrow labeled 'response' pointing back to the client. The set of arrows is labeled with 'HTTP(S)'."](/assets/images/http_request_response.webp)
 <br>
-<small>Source: Mozilla.org</small>
+<small>Source: [Medium](https://medium.com/@rohitpatil97/http-request-http-response-context-and-headers-part-iii-5c37bd4cb06b)</small>
 <br>
 
 When a User enters in a website name (web address), a request is made to the Server for that company. That server stores all the data for that company and will return the data which was requested. The Client (browser), will then display that data and allow the user to view and interact with the requested data. 
